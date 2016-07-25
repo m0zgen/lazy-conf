@@ -8,9 +8,6 @@ msgDone="Done!"
 # Check alias in bashrc
 ALIAS="if [ -f ~/.bash_aliases ]; then"
 
-# If not exist, create alias file
-touch ~/.bash_aliases
-
 addLines() {
 	cat >> ~/.bashrc <<EOF
 
@@ -30,6 +27,8 @@ if grep -Fxq "$ALIAS" ~/.bashrc
 then
     echo $msgFound
 else
+	# If not exist, create alias file
+	touch ~/.bash_aliases
 	addLines
 fi
 
