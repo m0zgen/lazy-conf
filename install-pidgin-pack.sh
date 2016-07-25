@@ -4,7 +4,7 @@
 #
 
 # Check if pidgin installed
-if [[ $(rpm -qa | grep pidgin) ]]; then
+if [[ ! $(rpm -qa | grep pidgin) ]]; then
   dnf -y install pidgin
 fi
 
