@@ -8,7 +8,7 @@ touch ~/conf.nanorc
 cat > ~/conf.nanorc <<EOF
 # config file highlighting
 
-syntax "conf" "(\.(conf|config|cfg|cnf|rc|lst|list|defs|ini|desktop|mime|types|preset|cache|seat|service|htaccess)$|(^|/)(\w*crontab|mirrorlist|group|hosts|passwd|rpc|netconfig|shadow|fstab|inittab|inputrc|protocols|sudoers)$|conf.d/|.config/)"
+syntax "conf" "(\.(local|conf|config|cfg|cnf|rc|lst|list|defs|ini|desktop|mime|types|preset|cache|seat|service|htaccess)$|(^|/)(\w*crontab|mirrorlist|group|hosts|passwd|rpc|netconfig|shadow|fstab|inittab|inputrc|protocols|sudoers)$|conf.d/|.config/)"
 
 # default text
 color magenta "^.*$"
@@ -47,3 +47,5 @@ EOF
 
 # cat ~/conf.nanorc
 echo "include ~/conf.nanorc" >> ~/.nanorc
+
+echo "Done! Conf file located - ~/conf.nanorc"
