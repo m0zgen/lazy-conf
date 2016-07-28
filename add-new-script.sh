@@ -14,4 +14,5 @@ else
 # Created by Yevgeniy Goncharov, http://sys-adm.in
 EOF
   subl $1
+  # nano $1
 fi
