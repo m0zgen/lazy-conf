@@ -9,4 +9,4 @@ dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(
 
 
 
-dnf -y install git mc htop nano wget rdesktop arandr tigervnc xclip hunspell-ru ccze youtube-dl ffmpeg nmap alacarte evolution geany gimp freemind vlc kruler
+dnf -y install git mc htop nano wget rdesktop arandr tigervnc xclip hunspell-ru ccze youtube-dl ffmpeg nmap alacarte evolution geany gimp freemind vlc kruler plank roxterm
