@@ -46,6 +46,8 @@ gtk-update-icon-cache -f -t /usr/share/icons/hicolor
 
 ln -sf "/opt/sublime_text_3/sublime_text" "/usr/bin/subl"
 
+rm -rf $DWNDIR
+
 cat <<EOF | tee /usr/share/applications/sublime-text-3.desktop
 [Desktop Entry]
 Name=Sublime Text 3
