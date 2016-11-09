@@ -1,0 +1,6 @@
+aaaaaa
+aaaaaa
+aaaaaa
+aaaaaa
+# Add from lazy-conf script
+%admin ALL=(ALL) ALL
