@@ -9,7 +9,7 @@ if [[ ! $(rpm -qa | grep pidgin) ]]; then
 fi
 
 # Enable skype repo
-dnf copr enable xvitaly/purple-skypeweb
+dnf  copr enable xvitaly/purple-skypeweb
 
 # Enable Telegram repo
 dnf copr enable lsof/telegram-purple
